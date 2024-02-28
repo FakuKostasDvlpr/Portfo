@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.firstBoxStyle {
+    background-color: #f0f0f0; /* Estilo específico para la primera tarjeta */
+}
+
+.otherBoxStyle {
+    background-color: #ccc; /* Estilo específico para las demás tarjetas */
+}
