@@ -1,5 +1,4 @@
 "use client"
-import { Onest } from "next/font/google"
 import { data } from "./data"
 import Button from "./Buttons/Button";
 import { AnimatedTooltipPreview } from "./Buttons/Social";
@@ -7,7 +6,7 @@ import { AnimatedTooltipPreview } from "./Buttons/Social";
 export default function Template({ }) {
     return (
         <>
-      <div className='grid grid-cols-1 md:grid-cols-3 p-3'>
+      <div className='grid grid-cols-1 md:grid-cols-3 md:m-10 m-10'>
         {data.map((item, i) => (
           <div key={i} className={`cardStyle${i} ${i === 0 && 'md:col-span-2'}`}>
             {i === 0 && (
@@ -24,8 +23,8 @@ export default function Template({ }) {
               </div>
             )}
             {i === 1 && (
-            <div className="grid grid-cols-1 md:grid-cols-1 gap-2 p-3">
-                <img className="h-full w-full rounded-xl object-contain" src="https://scontent.faep8-1.fna.fbcdn.net/v/t39.30808-6/338847974_1211820532780783_7430589805348026732_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeH5EZdHVSA59e09bqNyWg_jijkj3llUQA2KOSPeWVRADZ7lYJm4o0ON-m8Mhp1UgMWHk5JtOK8NSzg-lnmU5feV&_nc_ohc=_m5D15PNSjgAX89-hll&_nc_ht=scontent.faep8-1.fna&oh=00_AfDk2vNh7rcTU9CURG08iYZDQBBMd__xnD5bVQp44xr7Og&oe=65E3785C" alt="" />
+            <div className="flex items-center justify-center w-full h-full">
+                <img className="rounded-xl object-cover " src="/myIcon.png"/>
             </div>
             )}
           </div>
