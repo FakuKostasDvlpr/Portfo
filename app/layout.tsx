@@ -1,11 +1,9 @@
 import type { Metadata } from "next";
-import { Onest } from "next/font/google"
 
 import "./globals.css";
-import Header from "./components/Header";
+import Header from "./components/navbar/Header";
 import Footer from "./components/Footer";
 
-export const onest = Onest({ subsets: ['latin'], weight: ['900', '600', '700', '500', '400'] })
 
 export const metadata: Metadata = {
   title: "Hey there",
@@ -28,8 +26,9 @@ export default function RootLayout({
         <div className="w-full max-w-[1124px] mx-auto">
           <Footer/>
         </div>
-      </body>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
 
+      </body>
     </html>
   );
 }
