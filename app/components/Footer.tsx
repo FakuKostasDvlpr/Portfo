@@ -12,7 +12,6 @@ export default function Footer() {
                     className="min-[768px]:mr-2 bg-[#1b1b1b] border-2 border-gray-500 border-dashed focus:border-2 focus:border[#e3c448] focus:outline-none focus:border-dashed focus-visible:border-2 focus:text-[#e3c448] focus:placeholder:text-[#e3c448] hover:border-dashed text-black w-[285px] h-[40px] p-2.5 rounded-md placeholder:text-gray-500 placeholder:text-[14px]" 
                     name="email" 
                     placeholder="Email..."
-                    autoComplete="off"
                     type="text" 
                     required
                 />
@@ -20,7 +19,6 @@ export default function Footer() {
                     className="min-[768px]:ml-2 bg-[#1b1b1b] border-2 border-gray-500 border-dashed focus:border-2 focus:border[#e3c448] focus:outline-none focus:border-dashed focus-visible:border-2 focus:text-[#e3c448] focus:placeholder:text-[#e3c448] hover:border-dashed text-black w-[285px] h-[40px] p-2.5 rounded-md placeholder:text-gray-500 placeholder:text-[14px]" 
                     name="asunto" 
                     placeholder="Asunto..."
-                    autoComplete="off"
                     type="text" 
                     required
                 />
@@ -29,7 +27,6 @@ export default function Footer() {
                     name="detalle" 
                     placeholder="Detalle su propósito de contacto..." 
                     draggable="false"
-                    autoComplete="off"
                     required
                 />
             </form>
