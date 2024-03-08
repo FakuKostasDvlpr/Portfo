@@ -6,27 +6,27 @@ import { AnimatedTooltipPreview } from "./Buttons/Social";
 import Image from "next/image";
 
 export default function Template() {
-  useEffect(() => {
-    // Configuración para la animación desde la derecha
-    ScrollReveal().reveal('.reveal-right', {
-      delay: 300,
-      distance: '50px',
-      duration: 2500,
-      easing: 'cubic-bezier(0.5, 0, 0, 1)',
-      origin: 'right',
-      reset: true,
-    });
+  // useEffect(() => {
+  //   // Configuración para la animación desde la derecha
+  //   ScrollReveal().reveal('.reveal-right', {
+  //     delay: 300,
+  //     distance: '50px',
+  //     duration: 2500,
+  //     easing: 'cubic-bezier(0.5, 0, 0, 1)',
+  //     origin: 'right',
+  //     reset: true,
+  //   });
 
-    // Configuración para la animación desde abajo
-    ScrollReveal().reveal('.reveal-bottom', {
-      delay: 300,
-      distance: '50px',
-      duration: 1000,
-      easing: 'cubic-bezier(0.5, 0, 0, 1)',
-      origin: 'bottom',
-      reset: true,
-    });
-  }, []);
+  //   // Configuración para la animación desde abajo
+  //   ScrollReveal().reveal('.reveal-bottom', {
+  //     delay: 300,
+  //     distance: '50px',
+  //     duration: 1000,
+  //     easing: 'cubic-bezier(0.5, 0, 0, 1)',
+  //     origin: 'bottom',
+  //     reset: true,
+  //   });
+  // }, []);
 
   return (
     <>

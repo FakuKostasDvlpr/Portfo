@@ -5,25 +5,25 @@ import ChipIcon from "./Chip";
 import ScrollReveal from "scrollreveal";
 
 export function ThreeDCardDemo() {
-  useEffect(() => {
-    ScrollReveal().reveal('.reveal', {
-      delay: 300,
-      distance: '50px',
-      duration: 1000,
-      easing: 'cubic-bezier(0.5, 0, 0, 1)',
-      origin: 'right',
-      reset: true,
-    });
+  // useEffect(() => {
+  //   ScrollReveal().reveal('.reveal', {
+  //     delay: 300,
+  //     distance: '50px',
+  //     duration: 1000,
+  //     easing: 'cubic-bezier(0.5, 0, 0, 1)',
+  //     origin: 'right',
+  //     reset: true,
+  //   });
 
-    ScrollReveal().reveal('.reveal-left', {
-      delay: 300,
-      distance: '50px',
-      duration: 1000,
-      easing: 'cubic-bezier(0.5, 0, 0, 1)',
-      origin: 'left',
-      reset: true,
-    });
-  }, []);
+  //   ScrollReveal().reveal('.reveal-left', {
+  //     delay: 300,
+  //     distance: '50px',
+  //     duration: 1000,
+  //     easing: 'cubic-bezier(0.5, 0, 0, 1)',
+  //     origin: 'left',
+  //     reset: true,
+  //   });
+  // }, []);
   
   const projects = [
     {

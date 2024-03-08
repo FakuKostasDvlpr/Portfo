@@ -3,21 +3,8 @@ import { useRef, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
 import "../footer-styles.css"
-import ScrollReveal from "scrollreveal";
 
 export default function Footer() {
-
-    useEffect(() => {
-        ScrollReveal().reveal('.reveal-bottom', {
-          delay: 300,
-          distance: '50px',
-          duration: 1000,
-          easing: 'cubic-bezier(0.5, 0, 0, 1)',
-          origin: 'bottom',
-          reset: true,
-        });
-      }, []);
-
     const form = useRef();
 
     const sendEmail = () => {

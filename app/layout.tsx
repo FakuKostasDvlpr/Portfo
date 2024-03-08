@@ -24,7 +24,7 @@ export default function RootLayout({
         </div>
         {children}
         <div className="w-full max-w-[1124px] mx-auto">
-          <Footer/>
+        <Footer/>
         </div>
       <Script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></Script>
       </body>

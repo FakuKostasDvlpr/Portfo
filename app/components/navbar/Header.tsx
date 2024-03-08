@@ -12,18 +12,6 @@ export const onest = Onest({
 });
 
 export default function Header() {
-  
-  useEffect(() => {
-    ScrollReveal().reveal('.reveal', {
-      delay: 300,
-      distance: '50px',
-      duration: 1000,
-      easing: 'cubic-bezier(0.5, 0, 0, 1)',
-      origin: 'bottom',
-      reset: true,
-    });
-  }, []);
-    
     return (
       <>
       <header className="mt-5 flex m-auto w-full max-w-[1124px] items-center justify-between pt-4 reveal ">
