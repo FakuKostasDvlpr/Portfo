@@ -1,9 +1,7 @@
 "use client"
 import { Onest } from "next/font/google"
-import { Poppins } from "next/font/google";
 
-const onest = Onest({ subsets: ['latin'], weight: ['900', '600', '700', '500', '400'] });
-const poppins = Poppins({ subsets: ['latin'], weight: ['900', '600', '700', '500', '400'] });
+const onest = Onest({ subsets: ['latin'] });
 
 export default function Header() {
    
