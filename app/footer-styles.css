@@ -1,9 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap');
-
 .FooterLast {
     background-image: url("/backgroundFooter.jpg");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover; /* Ajusta el tamaño del fondo para cubrir todo el contenedor */
-    font-family: "Onest", sans-serif;
 }

@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 .firstBoxStyle {
-    background-color: #f0f0f0; /* Estilo específico para la primera tarjeta */
+    background-color: #f0f0f0; 
 }
 
 .otherBoxStyle {
-    background-color: #ccc; /* Estilo específico para las demás tarjetas */
+    background-color: #ccc; 
 }
 body{
     background-color: #1b1b1b;
