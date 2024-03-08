@@ -89,7 +89,7 @@ export default function Footer() {
             <div className="text-4xl mt-10 mx-4 font-medium">
                 <h3>Want to work  <span className="text-[#e3c448] font-medium">together?</span></h3>
             </div>
-            <div className="gap-12 flex mt-6 flex-col justify-center items-center text-center">
+            <div className="gap-6 flex mt-6 flex-col justify-center items-center text-center">
                 <form onSubmit={handleSubmit} ref={form} className="space-y-4 gap-x-4" id="contact" action="mailto:facucostas07@gmail.com" method="post">
                     <input 
                         className="min-[768px]:ml-2 mx-12 bg-[#1b1b1b] border-2 border-gray-500 border-dashed focus:border-2 focus:border[#e3c448] focus:outline-none focus:border-dashed focus-visible:border-2 focus:text-[#e3c448] focus:placeholder:text-[#e3c448] hover:border-dashed text-[#e3c448] w-[285px] h-[40px] p-2.5 rounded-md placeholder:text-gray-500 placeholder:text-[14px]" 
