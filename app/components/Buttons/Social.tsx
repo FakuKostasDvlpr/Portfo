@@ -4,6 +4,7 @@ import {Tooltip} from "@nextui-org/react";
 import Linkedin from "../icons/Linkedin";
 import GitHub from "../icons/GitHub";
 import Link from "next/link";
+import Discord from "../icons/Discord";
 
 
 export function AnimatedTooltipPreview() {
@@ -16,6 +17,10 @@ export function AnimatedTooltipPreview() {
       <Tooltip content="GiHub" closeDelay={100} className="bg-black text-white px-3 rounded-xl">
         <Link className="p-2 m-auto"  href="https://github.com/FakuKostasDvlpr" target="_blank"><GitHub/></Link>
       </Tooltip>
+      <Tooltip content="FakuuKostas#9467" closeDelay={100} className="bg-[#5865F2] text-white px-3 rounded-xl">
+      <Link className="p-2 m-auto"  href=""><Discord/></Link>
+      </Tooltip>
+
     </div>
     </>
 

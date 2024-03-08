@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import React from "react";
 
 import "./globals.css";
 import Header from "./components/navbar/Header";
 import Footer from "./components/Footer";
+
 
 export const metadata: Metadata = {
   title: "Hey there",
@@ -15,27 +15,19 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  React.useEffect(() => {
-    const script = document.createElement("script");
-    script.src = "https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js";
-    script.async = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    };
-  }, []);
-
   return (
     <html lang="en">
       <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Disc_Plain_yellow_dark.svg/2153px-Disc_Plain_yellow_dark.svg.png" />
       <body>
         <div>
-          <Header />
+          <Header/>
         </div>
         {children}
         <div className="w-full max-w-[1124px] mx-auto">
-          <Footer />
+          <Footer/>
         </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+
       </body>
     </html>
   );

@@ -1,3 +1,4 @@
+"use client"
 import { Onest } from "next/font/google"
 import { Poppins } from "next/font/google";
 
