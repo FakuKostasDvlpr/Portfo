@@ -2,6 +2,7 @@ import "../../app/globals.css";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from ".././components/ui/3d-card.tsx";
 import ChipIcon from "./Chip";
+import Image from "next/image";
 
 export function ThreeDCardDemo() {
   const projects = [
@@ -77,7 +78,7 @@ export function ThreeDCardDemo() {
                 {project.description}
               </CardItem>
               <CardItem translateZ="100" className="w-full mt-4">
-                <img
+                <Image
                   src={project.imageUrl}
                   className="md:h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                   alt="thumbnail"

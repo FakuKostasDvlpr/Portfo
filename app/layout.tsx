@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-
+import Script from "next/script";
 import "./globals.css";
 import Header from "./components/navbar/Header";
 import Footer from "./components/Footer";
@@ -26,8 +26,7 @@ export default function RootLayout({
         <div className="w-full max-w-[1124px] mx-auto">
           <Footer/>
         </div>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
-
+      <Script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></Script>
       </body>
     </html>
   );

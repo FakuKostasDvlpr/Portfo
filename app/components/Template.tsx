@@ -2,6 +2,7 @@
 import { data } from "./data"
 import Button from "./Buttons/Button";
 import { AnimatedTooltipPreview } from "./Buttons/Social";
+import Image from "next/image";
 
 export default function Template({ }) {
     return (
@@ -24,7 +25,7 @@ export default function Template({ }) {
             )}
             {i === 1 && (
             <div className="flex items-center justify-center w-full h-full">
-                <img className="rounded-xl object-cover " src="/myIcon.png"/>
+                <Image className="rounded-xl object-cover" src="/myIcon.png" alt="icono"/>
             </div>
             )}
           </div>
