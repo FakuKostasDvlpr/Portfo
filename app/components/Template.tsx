@@ -39,7 +39,6 @@ export default function Template() {
                   {item.title}
                 </h2>
                 <p>{item.subtitle}</p>
-                <p className='font-bold text-xl md:text-2xl'>{item.value}</p>
                 <div className="flex items-center">
                   <Button />
                   <AnimatedTooltipPreview />
@@ -48,7 +47,7 @@ export default function Template() {
             )}
             {i === 1 && (
               <div className="flex items-center justify-center w-full h-full reveal-bottom">
-                <Image className="rounded-xl object-cover md:w-[640px]" src="/myIcon.png" width={700} height={700} alt="icono"/>
+                <img className="rounded-xl object-cover md:w-[640px]" src="/myIcon.png" width={700} height={700} alt="icono"/>
               </div>
             )}
           </div>
