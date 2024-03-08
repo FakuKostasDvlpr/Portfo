@@ -95,7 +95,7 @@ export function ThreeDCardDemo() {
               >
                 {project.description}
               </CardItem>
-              <CardItem translateZ="100" className="w-full mt-4">
+              <CardItem translateZ="100" className="w-full mt-4 rounded-xl">
                 <img
                   src={project.imageUrl}
                   className="md:h-60 w-full object-contain rounded-xl group-hover/card:shadow-xl"

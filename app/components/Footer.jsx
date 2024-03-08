@@ -3,6 +3,7 @@ import { useRef, useEffect } from "react";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
 import "../footer-styles.css"
+import { RevealWrapper } from  'next-reveal'
 
 export default function Footer() {
     const form = useRef();
@@ -82,6 +83,8 @@ export default function Footer() {
     };
 
     return (
+        <>
+        <RevealWrapper delay={300} distance="50px" duration={1000} easing='cubic-bezier(0.5, 0, 0, 1)' origin="bottom" reset={true}> 
         <footer id="contact" className="reveal-bottom FooterLast rounded-xl mx-auto  bg-white grid-cols-3 gap-10 p-3 mt-20 mb-6 h-[500px] w-full max-w-[470px] md:max-w-[980px] ">
             <div className="text-4xl mt-10 mx-4 font-medium">
                 <h3>Want to work  <span className="text-[#e3c448] font-medium">together?</span></h3>
@@ -120,5 +123,7 @@ export default function Footer() {
                 </button>
             </div>
         </footer>
+        </RevealWrapper>
+        </>
     );
 }

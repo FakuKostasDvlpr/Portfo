@@ -3,6 +3,13 @@ import Script from "next/script";
 import "./globals.css";
 import Header from "./components/navbar/Header";
 import Footer from "./components/Footer";
+import { Onest } from "next/font/google"
+
+export const onest = Onest({
+  adjustFontFallback: false,
+  display: 'swap',
+  subsets: ['latin'],
+});
 
 
 export const metadata: Metadata = {

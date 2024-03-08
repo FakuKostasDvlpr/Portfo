@@ -16,6 +16,7 @@
     "dotenv": "^16.4.5",
     "framer-motion": "^11.0.8",
     "next": "14.1.0",
+    "next-reveal": "^1.0.6",
     "react": "^18",
     "react-dom": "^18",
     "scrollreveal": "^4.0.9",

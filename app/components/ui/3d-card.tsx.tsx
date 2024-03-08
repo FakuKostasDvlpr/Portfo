@@ -48,7 +48,7 @@ export const CardContainer = ({
     <MouseEnterContext.Provider value={[isMouseEntered, setIsMouseEntered]}>
       <div
         className={cn(
-          "py-20 flex items-center justify-center",
+          "py-5 flex items-center justify-center",
           containerClassName
         )}
         style={{
@@ -143,7 +143,6 @@ export const CardItem = ({
   );
 };
 
-// Create a hook to use the context
 export const useMouseEnter = () => {
   const context = useContext(MouseEnterContext);
   if (context === undefined) {
