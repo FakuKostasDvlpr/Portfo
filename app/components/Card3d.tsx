@@ -81,7 +81,7 @@ export function ThreeDCardDemo() {
   return (
     <div className="grid gap-10 grid-cols-1 md:grid-cols-1 md:m-10 lg:grid-cols-2 xl:grid-cols-2">
       {projects.map(project => (
-        <CardContainer className="inter-var">
+        <CardContainer className="inter-var" key={project.id}>
             <CardBody className="cursor-pointer reveal lg:w-[400px] md:w-[600px] w-[400px] bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] bg-gradient-to-r from-amber-50 to-yellow-400 dark:border-white/[0.2] border-black/[0.1]sm:w-[39rem] h-auto rounded-xl p-6 border  ">
               <CardItem
                 translateZ="50"
