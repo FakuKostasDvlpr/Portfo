@@ -1,10 +1,30 @@
 import "../../app/globals.css";
-import React from "react";
+import React, { useEffect } from "react";
 import { CardBody, CardContainer, CardItem } from ".././components/ui/3d-card.tsx";
 import ChipIcon from "./Chip";
-import Image from "next/image";
+import ScrollReveal from "scrollreveal";
 
 export function ThreeDCardDemo() {
+  useEffect(() => {
+    ScrollReveal().reveal('.reveal', {
+      delay: 300,
+      distance: '50px',
+      duration: 1000,
+      easing: 'cubic-bezier(0.5, 0, 0, 1)',
+      origin: 'right',
+      reset: true,
+    });
+
+    ScrollReveal().reveal('.reveal-left', {
+      delay: 300,
+      distance: '50px',
+      duration: 1000,
+      easing: 'cubic-bezier(0.5, 0, 0, 1)',
+      origin: 'left',
+      reset: true,
+    });
+  }, []);
+  
   const projects = [
     {
       id: 1,
@@ -58,13 +78,11 @@ export function ThreeDCardDemo() {
       vercelLink: "https://fakukostasdvlpr.github.io/ToDoList/"
     },
   ];
-
   return (
     <div className="grid gap-10 grid-cols-1 md:grid-cols-1 md:m-10 lg:grid-cols-2 xl:grid-cols-2">
       {projects.map(project => (
-        <a key={project.id} href={project.vercelLink} target="_blank" rel="noopener noreferrer" className="hover:no-underline">
-          <CardContainer className="inter-var">
-            <CardBody className="cursor-pointer lg:w-[400px] md:w-[600px] w-[400px] bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] bg-gradient-to-r from-amber-50 to-yellow-400 dark:border-white/[0.2] border-black/[0.1]sm:w-[39rem] h-auto rounded-xl p-6 border  ">
+        <CardContainer className="inter-var">
+            <CardBody className="cursor-pointer reveal lg:w-[400px] md:w-[600px] w-[400px] bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] bg-gradient-to-r from-amber-50 to-yellow-400 dark:border-white/[0.2] border-black/[0.1]sm:w-[39rem] h-auto rounded-xl p-6 border  ">
               <CardItem
                 translateZ="50"
                 className="text-xl font-bold text-gray-700 "
@@ -97,12 +115,11 @@ export function ThreeDCardDemo() {
                   as="button"
                   className="px-4 py-2 rounded-xl text-xs font-normal"
                 >
-                  {project.buttonText1}
+                  <a href={project.vercelLink} target="_blank"><span className="hover:bg-white rounded-xl hover:text-black hover:font-bold p-3 ease-out duration-75">{project.buttonText1}</span></a>
                 </CardItem>
               </div>
             </CardBody>
           </CardContainer>
-        </a>
       ))}
     </div>
   );
