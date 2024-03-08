@@ -25,7 +25,7 @@ export default function Template({ }) {
             )}
             {i === 1 && (
             <div className="flex items-center justify-center w-full h-full">
-                <Image className="rounded-xl object-cover" src="/myIcon.png" alt="icono"/>
+                <Image className="rounded-xl object-cover md:w-[640px]" src="/myIcon.png" width={700} height={700} alt="icono"/>
             </div>
             )}
           </div>

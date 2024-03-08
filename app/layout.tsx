@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Disc_Plain_yellow_dark.svg/2153px-Disc_Plain_yellow_dark.svg.png" />
+      <link rel="icon" href="/logo-yellow.png" />
       <body>
         <div>
           <Header/>

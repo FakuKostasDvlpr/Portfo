@@ -13,7 +13,7 @@ export default function Header() {
         <>
             <header className="flex m-auto w-full max-w-[1124px] items-center justify-between pt-4 ">
                 <div className="text-center flex items-center justify-center gap-4">
-                    <Image src="" width={30} height={30} alt="logo" />
+                    <Image src="/public/logo-yellow.png" width={30} height={30} alt="logo" />
                     <p className={`${onest.className} font-bold text-3xl`}>Kostas</p>
                 </div>
                 <nav>

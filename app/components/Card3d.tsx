@@ -10,7 +10,7 @@ export function ThreeDCardDemo() {
       id: 1,
       title: "NUCBA NFT",
       description: "E-Commerce",
-      imageUrl: "https://s32679.pcdn.co/wp-content/uploads/2022/01/nft-free.jpg.optimal.jpg",
+      imageUrl: "/NFT_NUCBA.jpg",
       buttonText1: "Ver ahora →",
       tecnologia: "react",
       vercelLink: "https://fakukostasdvlpr.github.io/NFTCommerce/"
@@ -28,7 +28,7 @@ export function ThreeDCardDemo() {
       id: 3,
       title: "Morty APP",
       description: "Fetch API Rick&Morty",
-      imageUrl: "https://i.ytimg.com/vi/w26m0KzvZy4/maxresdefault.jpg",
+      imageUrl: "/rickymorty.jpg",
       buttonText1: "Ver ahora →",
       tecnologia: "react",
       vercelLink: "https://fakukostasdvlpr.github.io/RandoMortyApp/"
@@ -78,9 +78,9 @@ export function ThreeDCardDemo() {
                 {project.description}
               </CardItem>
               <CardItem translateZ="100" className="w-full mt-4">
-                <Image
+                <img
                   src={project.imageUrl}
-                  className="md:h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                  className="md:h-60 w-full object-contain rounded-xl group-hover/card:shadow-xl"
                   alt="thumbnail"
                 />
               </CardItem>
