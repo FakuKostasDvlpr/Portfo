@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+   height: 100%;
+   width: 100%;
+}
 .firstBoxStyle {
     background-color: #f0f0f0; 
 }
