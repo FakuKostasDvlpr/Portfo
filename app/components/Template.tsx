@@ -9,7 +9,7 @@ export default function Template() {
   return (
     <>
     <RevealWrapper delay={300} distance="50px" duration={2000} easing='cubic-bezier(0.5, 0, 0, 1)' origin="left" reset={true}>
-      <div className='grid grid-cols-1 md:grid-cols-3 md:m-12 mx-10 justify-center items-center'>
+      <div className='grid grid-cols-1 md:grid-cols-3 md:m-12 mx-10 justify-center items-center mt-10'>
         {data.map((item, i) => (
           <div key={i} className={`cardStyle${i} ${i === 0 && 'md:col-span-2 reveal-right'}`}>
             {i === 0 && (
