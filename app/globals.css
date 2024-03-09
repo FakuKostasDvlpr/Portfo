@@ -5,6 +5,8 @@
 html{
    height: 100%;
    width: 100%;
+   box-sizing: border-box;
+
 }
 .firstBoxStyle {
     background-color: #f0f0f0; 
@@ -16,6 +18,9 @@ html{
 body{
     background-color: #1b1b1b;
     overflow-x: hidden;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .card {

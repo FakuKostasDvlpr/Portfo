@@ -20,9 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <link rel="icon" href="/logo-yellow.png" />
       <body className={font.className}>
-        <div>
           <Header/>
-        </div>
         {children}
         <div>
         <Footer/>

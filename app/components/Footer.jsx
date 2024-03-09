@@ -86,7 +86,7 @@ export default function Footer() {
     return (
         <>
         <RevealWrapper delay={300} distance="50px" duration={1000} easing='cubic-bezier(0.5, 0, 0, 1)' origin="bottom" reset={true}> 
-        <footer id="contact" className="reveal-bottom FooterLast rounded-xl mx-auto bg-white  gap-10 mb-6 h-[450px] w-full max-w-[370px] md:max-w-[930px] items-center justify-center">
+        <footer id="contact" className="reveal-bottom FooterLast rounded-xl mx-auto bg-white  gap-10 mb-6 h-[500px] w-full max-w-[370px] md:max-w-[930px] items-center justify-center">
             <div className="text-4xl pt-6 mx-4 font-medium">
                 <h3>Want to work  <span className="text-[#e3c448] font-medium">together?</span></h3>
             </div>
