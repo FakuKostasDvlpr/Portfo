@@ -12,9 +12,9 @@ export default function Header() {
       
               <p className= "text-white font-bold text-3xl">Kostas</p>
           </div>
-          <nav className="px-10">
+          <nav className="">
             <ul className="flex text-white gap-5 ">
-                <li className="flex gap-10">
+                <li className="flex  min:md:flex-col ">
                   <a href="#!" className="hover:text-yellow-500 font-bold hover:bg-white px-4 rounded-xl">Home</a>
                   <a href="#project" className="hover:text-yellow-500 font-bold hover:bg-white px-4 rounded-xl">Project</a>
                   <a href="#contact" className="hover:text-yellow-500 font-bold hover:bg-white px-4 rounded-xl">Contact</a>
