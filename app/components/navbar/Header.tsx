@@ -13,10 +13,9 @@ export default function Header() {
               <p className= "text-white font-bold text-3xl">Kostas</p>
           </div>
           <nav className="">
-            <ul className="flex text-white gap-5 ">
-                <li className="flex  min:md:flex-col ">
-                  <a href="#!" className="hover:text-yellow-500 font-bold hover:bg-white px-4 rounded-xl">Home</a>
-                  <a href="#project" className="hover:text-yellow-500 font-bold hover:bg-white px-4 rounded-xl">Project</a>
+            <ul className="flex text-white gap-3 ">
+                <li className="flex ">
+                <a href="#project" className="hover:text-yellow-500 font-bold hover:bg-white px-4 rounded-xl">Project</a>
                   <a href="#contact" className="hover:text-yellow-500 font-bold hover:bg-white px-4 rounded-xl">Contact</a>
                 </li>
             </ul>
