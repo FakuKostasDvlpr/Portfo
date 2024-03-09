@@ -80,7 +80,7 @@ export function ThreeDCardDemo() {
     },
   ];
   return (
-    <div className="grid gap-10 grid-cols-1 md:grid-cols-1 md:m-10 lg:grid-cols-2 xl:grid-cols-2">
+    <div className="grid gap-10 grid-cols-1 md:grid-cols-1 md:m-10 lg:grid-cols-2 xl:grid-cols-2 mt-10">
       {projects.map(project => (
         <CardContainer className="inter-var" key={project.id}>
           <RevealWrapper delay={300} distance="50px" duration={1000} easing='cubic-bezier(0.5, 0, 0, 1)' origin="bottom" reset={true}> 
