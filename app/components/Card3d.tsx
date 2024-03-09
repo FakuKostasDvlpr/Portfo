@@ -32,7 +32,7 @@ export function ThreeDCardDemo() {
       title: "NUCBA NFT",
       description: "E-Commerce",
       imageUrl: "/NFT_NUCBA.jpg",
-      buttonText1: "Ver ahora →",
+      buttonText1: "Ver ahora",
       tecnologia: "react",
       vercelLink: "https://fakukostasdvlpr.github.io/NFTCommerce/"
     },
@@ -41,7 +41,7 @@ export function ThreeDCardDemo() {
       title: "Polarsystem",
       description: "SPA",
       imageUrl: "/POLARSYSTEM.jpg",
-      buttonText1: "Ver ahora →",
+      buttonText1: "Ver ahora",
       tecnologia: "react",
       vercelLink: "https://polar-ultra.vercel.app/"
     },
@@ -50,7 +50,7 @@ export function ThreeDCardDemo() {
       title: "Morty APP",
       description: "Fetch API Rick&Morty",
       imageUrl: "/rickymorty.jpg",
-      buttonText1: "Ver ahora →",
+      buttonText1: "Ver ahora",
       tecnologia: "react",
       vercelLink: "https://fakukostasdvlpr.github.io/RandoMortyApp/"
     },
@@ -59,7 +59,7 @@ export function ThreeDCardDemo() {
       title: "Weather APP",
       description: "Fetch API Weather",
       imageUrl: "/WEATHER.jpg",
-      buttonText1: "Ver ahora →",
+      buttonText1: "Ver ahora",
       vercelLink: "https://worldweathersite.vercel.app/"
     },
     {
@@ -67,7 +67,7 @@ export function ThreeDCardDemo() {
       title: "Hallowen Landing",
       description: "SPA",
       imageUrl: "/Hallowen.jpg",
-      buttonText1: "Ver ahora →",
+      buttonText1: "Ver ahora",
       vercelLink: "https://fakukostasdvlpr.github.io/Hallowen-Landing/"
     },
     {
@@ -75,7 +75,7 @@ export function ThreeDCardDemo() {
       title: "Hallowen Landing",
       description: "To-do App",
       imageUrl: "/TodoList.jpg",
-      buttonText1: "Ver ahora →",
+      buttonText1: "Ver ahora",
       vercelLink: "https://fakukostasdvlpr.github.io/ToDoList/"
     },
   ];
@@ -84,7 +84,7 @@ export function ThreeDCardDemo() {
       {projects.map(project => (
         <CardContainer className="inter-var" key={project.id}>
           <RevealWrapper delay={300} distance="50px" duration={1000} easing='cubic-bezier(0.5, 0, 0, 1)' origin="bottom" reset={true}> 
-            <CardBody className="cursor-pointer reveal lg:w-[400px] md:w-[600px] w-[400px] bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] bg-gradient-to-r from-amber-50 to-yellow-400 dark:border-white/[0.2] border-black/[0.1]sm:w-[39rem] h-auto rounded-xl p-6 border  ">
+            <CardBody className="cursor-pointer reveal lg:w-[400px] md:w-[400px] w-[280px] bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] bg-gradient-to-r from-amber-50 to-yellow-400 dark:border-white/[0.2] border-black/[0.1]sm:w-[39rem] h-auto rounded-xl p-6 border  ">
               <CardItem
                 translateZ="50"
                 className="text-xl font-bold text-gray-700 "
@@ -115,9 +115,9 @@ export function ThreeDCardDemo() {
                 <CardItem
                   translateZ={20}
                   as="button"
-                  className="px-4 py-2 rounded-xl text-xs font-normal"
+                  className="px-4 py-2 rounded-xl text-xs font-normal items-center justify-center"
                   >
-                  <a href={project.vercelLink} target="_blank"><span className="hover:bg-white rounded-xl hover:text-black hover:font-bold p-3 ease-out duration-75">{project.buttonText1}</span></a>
+                  <a href={project.vercelLink} target="_blank"><span className="hover:bg-white rounded-xl hover:text-black hover:font-bold p-3 ease-out duration-75 border-2 border-dashed">{project.buttonText1}</span></a>
                 </CardItem>
               </div>
             </CardBody>
