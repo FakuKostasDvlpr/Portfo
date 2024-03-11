@@ -14,7 +14,7 @@ export default function Template() {
             <div key={i} className={`cardStyle${i} ${i === 0 && 'md:col-span-2 reveal-right'}`}>
               {i === 0 && (
                 <div className="col-start-1 flex bg-gradient-to-r from-amber-50 to-yellow-400 flex-col rounded-xl gap-[10px] p-10 max-w-[750px]">
-                  <div className="flex gap-5 flex-col">
+                  <div className="flex gap-3 flex-col">
                     <h2 className={`text-3xl md:text-6xl w-full text-black py-3 ${i === 0 ? 'specialTitle text-black font-[600]' : ''}`}>
                       {item.title}
                     </h2>
