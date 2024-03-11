@@ -86,11 +86,11 @@ export default function Footer() {
     return (
         <>
         <RevealWrapper delay={300} distance="50px" duration={1000} easing='cubic-bezier(0.5, 0, 0, 1)' origin="bottom" reset={true}> 
-        <footer id="contact" className="reveal-bottom FooterLast rounded-xl mx-auto bg-white  gap-10 mb-6 h-[500px] w-full max-w-[370px] md:max-w-[930px] items-center justify-center">
+        <footer id="contact" className="reveal-bottom FooterLast rounded-xl mx-auto bg-white  h-[450px] w-full max-w-[370px] md:max-w-[920px] items-center justify-center">
             <div className="text-4xl pt-6 mx-4 font-medium">
                 <h3>Want to work  <span className="text-[#e3c448] font-medium">together?</span></h3>
             </div>
-            <div className="gap-6 flex mt-6 flex-col justify-center items-center text-center">
+            <div className="gap-6 mb-10 flex mt-6 flex-col justify-center items-center text-center">
                 <form onSubmit={handleSubmit} ref={form} className="space-y-4 gap-x-4" id="contact" action="mailto:facucostas07@gmail.com" method="post">
                     <input 
                         className="min-[768px]:ml-2 mx-12 bg-[#1b1b1b] border-2 border-gray-500 border-dashed focus:border-2 focus:border[#e3c448] focus:outline-none focus:border-dashed focus-visible:border-2 focus:text-[#e3c448] focus:placeholder:text-[#e3c448] hover:border-dashed text-[#e3c448] w-[285px] h-[40px] p-2.5 rounded-md placeholder:text-gray-500 placeholder:text-[14px]" 

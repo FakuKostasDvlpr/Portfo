@@ -22,9 +22,7 @@ export default function RootLayout({
       <body className={font.className}>
           <Header/>
         {children}
-        <div>
         <Footer/>
-        </div>
       <Script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></Script>
       </body>
     </html>
