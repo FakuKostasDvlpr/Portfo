@@ -13,7 +13,7 @@ export default function Header() {
                             <p className="text-white font-bold text-3xl">Kostas</p>
                         </div>
                     </div>
-                    <nav className="mx-10">
+                    <nav>
                         <ul className="flex text-white">
                             <li className="flex">
                                 <a href="#project" className="hover:text-yellow-500 font-bold hover:bg-white px-4 rounded-xl">Project</a>
