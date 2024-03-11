@@ -1,13 +1,12 @@
 "use client"
 import Image from "next/image";
 import { RevealWrapper } from  'next-reveal'
-
 export default function Header() {
     return (
         <>
             <RevealWrapper delay={300} distance="50px" duration={1000} easing='cubic-bezier(0.5, 0, 0, 1)' origin="right" reset={true}> 
-                <header className="mt-10 flex m-auto w-full items-center justify-between reveal">
-                    <div className="flex items-center mx-10">
+                <header className="mt-5 flex m-auto w-full items-center justify-between pt-4 reveal">
+                    <div className="flex items-center">
                         <div className="px-5 text-center flex items-center gap-4">
                             <Image src="/logo-yellow.png" width={30} height={30} alt="logo" />
                             <p className="text-white font-bold text-3xl">Kostas</p>
@@ -26,5 +25,3 @@ export default function Header() {
         </>
     );
 }
-
-  
