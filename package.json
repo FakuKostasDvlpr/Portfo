@@ -21,6 +21,7 @@
     "react-dom": "^18",
     "scrollreveal": "^4.0.9",
     "sweetalert2": "^11.10.6",
+    "swiper": "^11.1.1",
     "tailwind-merge": "^2.2.1"
   },
   "devDependencies": {

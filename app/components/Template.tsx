@@ -23,7 +23,7 @@ export default function Template() {
                     <div className="hidden md:block items-center max-w-[120px]">
                       <Button />
                     </div>
-                    <div className="flex xl:mx-40 ">
+                    <div className="flex justify-around px-28">
                       <AnimatedTooltipPreview />
                     </div>
                   </div>
