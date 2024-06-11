@@ -72,7 +72,7 @@ export function ThreeDCardDemo() {
     },
     {
       id: 6,
-      title: "Hallowen Landing",
+      title: "To-do App",
       description: "To-do App",
       imageUrl: "/TodoList.jpg",
       buttonText1: "Ver ahora",

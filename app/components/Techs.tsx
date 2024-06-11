@@ -28,7 +28,7 @@ export const Techs: React.FC = () => {
                 }}
             >
                 {technologiesData.map((icon: IconData, index: number) => (
-                    <SwiperSlide key={index} className=' gap-10 flex flex-col items-center justify-center mx-auto text-center drop-shadow-lg'>
+                    <SwiperSlide key={index} className=' flex flex-col items-center justify-center mx-auto text-center drop-shadow-lg'>
                         {<icon.component  />}
                     </SwiperSlide>
                 ))}
